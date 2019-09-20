@@ -6,7 +6,7 @@ const request = require("supertest");
 describe("responds to the token with a json object", () => {
   it("sends json", () => {
     const correctUserToLog = {
-      username: "Bishop",
+      username: "BDesselle",
       password: "password"
     };
     request(auth)
@@ -28,7 +28,7 @@ describe("responds to the token with a json object", () => {
 describe("responds with 200 with a token", () => {
   it("status 200", () => {
     const correctUserToLog = {
-      username: "Bishop",
+      username: "BDesselle",
       password: "password"
     };
     request(auth)

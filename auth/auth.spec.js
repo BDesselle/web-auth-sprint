@@ -51,7 +51,7 @@ describe("Status 401 when a username is missing", () => {
 describe("Status 401 when a password is incorrect", () => {
   it("responds with 401 when password is incorrect", () => {
     const userToLog = {
-      username: "Bishop",
+      username: "BDesselle",
       password: "test"
     };
     request(auth)
@@ -67,7 +67,7 @@ describe("Status 401 when a password is incorrect", () => {
 describe("Status 200 when login i successfull", () => {
   it("responds with 200 when login i successfull", () => {
     const correctUserToLog = {
-      username: "Bishop",
+      username: "BDesselle",
       password: "password"
     };
     request(auth)
